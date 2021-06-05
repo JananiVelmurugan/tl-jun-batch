@@ -1,0 +1,32 @@
+Day 1
+Java Introduction
++ OOP
++ Object - any real world entity
++ Principles
++ History 
+	+ Sun Microsystem - Java 
+	+ James Gosling 
+	+ Oracle Corp
++ Java 8 - Functional Programming
+Java Compiler Basic
++ .java - source code
++ .class - byte code (intermediate file)
++ JDK - Java Development Kit = JVM + JRE 
+	+ Develop java programs
++ JVM - Java Virtual Machine = JRE
+	+ Loading java class files 
++ JRE - Java Runtime Environment
+	+ Executing java class files 
++ Compilation
+	+ javac Hello.java - Hello.class will be created
++  Execution
+	+ java Hello - Output will be displayed
++ Platform Independepent
+	+ Byte code
++ Java is a platform independent
++ JVM is platform dependent
+Helloworld Application
+Path,Classpath
+path - location of the (java) executables to be used by the operating system
+classpath - location of the class files. By default the location is your current dir.
+Primitive Types
