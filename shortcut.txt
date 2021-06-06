@@ -1,0 +1,11 @@
+ctrl + shift + f = format
+ctrl + s = save
+ctrl + shift + s = save all
+ctrl + f11 = run
+ctrl + + = increase font size
+ctrl + - = decrease font size 
+ctrl + m = maximize/minimize
+ctrl + d = delete a line
+ctrl + / = comment/uncomment
+ctrl + w = close window
+ctrl + shift + w = close all window

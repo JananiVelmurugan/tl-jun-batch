@@ -19,7 +19,7 @@ Java Compiler Basic
 	+ Executing java class files 
 + Compilation
 	+ javac Hello.java - Hello.class will be created
-+  Execution
++ Execution
 	+ java Hello - Output will be displayed
 + Platform Independepent
 	+ Byte code
@@ -27,6 +27,7 @@ Java Compiler Basic
 + JVM is platform dependent
 Helloworld Application
 Path,Classpath
-path - location of the (java) executables to be used by the operating system
-classpath - location of the class files. By default the location is your current dir.
-Primitive Types
++ path - location of the (java) executables to be used by the operating system
++ classpath - location of the class files. By default the location is your current dir.
+Command Line / Program Arguments
++ String[]

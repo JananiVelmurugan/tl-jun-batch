@@ -1,0 +1,21 @@
+Primitive Types
++ int
++ float
++ byte
++ short
++ long
++ boolean
++ double
++ char
++ String - class
+	+ java.lang - package 
+Primitive Type Conversion
+Object - real world entity
+Instance - any object that we create at any point of time 
+ex: Product is an object
+Product1, Product2 are instances
+Operators part-1
+Operators part-2
+Operators part-3
+Program Control part-1
+Program Control part-2
