@@ -11,3 +11,8 @@ Exercises
    min - 12
    sum - 31
    Output:31
+4. Find the number of words are of given length
+   Input1:{“aa”,”b”,”cc”,”ddd”}
+   Input2:2
+   Output1:2
+5.
