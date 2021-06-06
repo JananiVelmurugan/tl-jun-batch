@@ -15,4 +15,12 @@ Exercises
    Input1:{“aa”,”b”,”cc”,”ddd”}
    Input2:2
    Output1:2
+   
+   Input1:{“aa”,”b”,”cc”,”ddd”}
+   Input2:1
+   Output1:1
+   
+   Input1:{“aa”,”b”,”cc”,”ddd”}
+   Input2:3
+   Output1:1
 5.
