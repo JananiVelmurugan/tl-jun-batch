@@ -23,4 +23,70 @@ Exercises
    Input1:{“aa”,”b”,”cc”,”ddd”}
    Input2:3
    Output1:1
-5.
+5. Find the sum of the numbers in the given input string array
+   Input:{“2AA”,”12”,”ABC”,”c1a”)
+   Output:6 (2+1+2+1)
+   Note in the above array 12 must not considered as such it must be considered as 1,2
+
+6. Convert String array to String
+   String[] input1=["Vikas","Lokesh",Ashok]
+   Expected output String: "Vikas,Lokesh,Ashok"
+
+7. Email Validation. Output is false if the validation fails else true.
+   String input1="test@gmail.com"
+                1)@ & : should be present;
+                2)@ & . should not be repeated;
+                3)there should be four charcters between @ and .;
+                4)there shouls be atleast 3 characters before @ ;
+                5)the end of mail id should be .com;
+   Expected Output=true
+
+8. Square root calculation
+   ((x1+x2)*(x1+x2))+((y1+y2)*(y1+y2))
+   o/p should be rounded of to int;
+   Sample input:
+   double x1=5;
+   double x2=6;
+   double y1=8;
+   double y2=3;
+   output : 15
+9. Calculate whether given year as leap or not;
+   Sample input: int year = 2020;
+   Sample output: boolean isLeapYear = true;
+
+10. Find A union B
+	Sample input: int[] a={1,2,3,4};
+				  int[] b={3,4,5,6};
+	Sample output: int[] c={1,2,3,4,5,6}
+
+11. Find A interscetion B
+	Sample input: int[] a={1,2,3,4};
+				  int[] b={3,4,5,6};
+	Sample output: int[] c={3,4}
+
+12. Find (A union B) - (A intersection B)
+	Sample input: int[] a={1,2,3,4};
+				  int[] b={3,4,5,6};
+				  a union b = {1,2,3,4,5,6}
+				  a intersection b = {3,4}
+				  (a union b) - (a intersection b) = {1,2,5,6}
+	Sample output: int[] c={1,2,5,6}
+
+13. Convert decimal to binary
+	Sample input : 12 
+	Sample output : 1100
+	
+14. Concatenate the character in a given position. 
+	If there is no character in a given position place "$" sign.
+	input1[]={"abc","da","ram"};
+    input2=3; 
+	hint : 
+	3rd character is "c" in "abc"
+	3rd character is not present in "da", so place "$"
+	3rd character is "m" in "ram" 
+	concate all the characters to a single string "c$m"
+    o/p string ="c$m";
+
+15. Display unique characters in a string.
+	input:"helloworld"
+	output:"helowrd"
