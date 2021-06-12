@@ -1,0 +1,49 @@
+Oops Basics part-1
+Object Oriented Programming
+class - blueprint/template of any objects 
+Mobile
++ states/properties - instance variables(private)fields
+	+ name
+	+ cost
+	+ discount 
++ methods/behaviours - instance methods
+	+ order 
+	+ add_to_cart
+	
+objects - a real world entity
++ new Mobile(); - returns the object reference
++ new - keyword/operator
++ creating an object/ instantiation
+
+Access specifiers
++ public - anywhere
++ protected
++ default(package private) - inside the same package
++ private - inside the same class
+
+methods
+Oops Basics part-2
+new
+this
++ represents current object/instance
++ used for accessing the instance field/methods 
++ also used to resolve ambiguity between local input param & instance variable  
+encapsulation
++ data hiding
++ private variables
++ public getters & setters
+Oops Basics part-3
+static - class objects 
++ variables
++ methods 
++ block
+when?
++ constants 
++ same/shared/single value for the entire class 
+variable 
++ instance 
++ static 
++ final instance 
++ final static 
++ local 
+
