@@ -1,0 +1,11 @@
+Methodoverloading
++ same method name
+	+ N - number of param
+	+ O - order of param 
+	+ T - type of param 
+	
++ Constructor - complex initialization
+	+ special method with class name
+	+ may/may not have param
+	+ no return
++ Constructor Chaining - call a cons from another cons

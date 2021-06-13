@@ -9,9 +9,13 @@ public class VariableDemo {
 	void print() {
 		int localVar = 200;
 		System.out.println(instanceVar);
+		instanceVar = 10;
 		System.out.println(staticVar);
+		staticVar = 20;
 		System.out.println(finalVar);
+		finalVar = 30;
 		System.out.println(sFVar);
+		sFVar = 40;
 		System.out.println(localVar);
 	}
 
@@ -23,6 +27,10 @@ public class VariableDemo {
 		System.out.println(demo.finalVar);
 		System.out.println(sFVar);
 		System.out.println(localVar);
+		VariableDemo demo1 = new VariableDemo();
+		System.out.println(demo1.finalVar);
+		demo.finalVar = 10;
+		demo1.finalVar  20;
 	}
 
 }

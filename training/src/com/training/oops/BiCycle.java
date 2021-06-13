@@ -11,7 +11,11 @@ public class BiCycle {
 		product.serialNo= 1234;
 		
 		product.description= "oppo mobile";
+		System.out.println(VariableDemo.staticVar);
 
+	}
+	void print() {
+		System.out.println(VariableDemo.staticVar);
 	}
 
 }

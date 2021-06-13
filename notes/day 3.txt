@@ -43,7 +43,8 @@ when?
 variable 
 + instance 
 + static 
-+ final instance 
++ final instance (not recommended)
 + final static 
 + local 
 
++ enum Signal{RED,YELLOW,GREEN}
