@@ -3,12 +3,16 @@ package com.training.arrays;
 public class Product {
 	int id;
 	String name;
+	double cost;
 
 	Product(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 
+	void print() {
+		System.out.println(id + "-" + name);
+	}
 	public int getId() {
 		return id;
 	}
@@ -38,8 +42,11 @@ public class Product {
 		// Print the products
 		for (Product temp : products) {
 			System.out.println(temp);
-			System.out.println(temp.getId() + "-" + temp.getName());
+//			System.out.println(temp.getId() + "-" + temp.getName());
+			temp.print();
 		}
+		products[0].print();
+		products[1].getName();
 
 		System.out.println("Dummy Array");
 		for (Product temp : dummy) {

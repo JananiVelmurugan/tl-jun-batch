@@ -22,6 +22,8 @@ Access specifiers
 + private - inside the same class
 
 methods
++ declaration - return type,name,parameters & its type 
++ definition - body/purpose of the method 
 Oops Basics part-2
 new
 this

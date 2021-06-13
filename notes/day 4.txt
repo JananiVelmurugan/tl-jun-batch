@@ -9,3 +9,11 @@ Methodoverloading
 	+ may/may not have param
 	+ no return
 + Constructor Chaining - call a cons from another cons
++ Arrays - store elemets that are fixed size of similar type 
+	+ dynamic grow/shrink size an array is not possible
+	+ dynamic array can be created inside loop
++ Inheritance - resuability
+	+ parent/super/root
+	+ child/sub/derived
+	+ is-a relationship
++ Object Substitution

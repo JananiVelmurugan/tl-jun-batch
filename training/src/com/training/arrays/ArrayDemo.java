@@ -15,6 +15,7 @@ public class ArrayDemo {
 		arr[1] = 200;
 		arr[2] = 300;
 
+		arr = new int[50];
 		int[] a = new int[] { 10, 20, 30 };
 		int[] b;
 //		System.out.println(b);
