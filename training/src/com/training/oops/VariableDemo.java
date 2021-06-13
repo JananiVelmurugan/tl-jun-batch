@@ -13,9 +13,9 @@ public class VariableDemo {
 		System.out.println(staticVar);
 		staticVar = 20;
 		System.out.println(finalVar);
-		finalVar = 30;
+//		finalVar = 30;
 		System.out.println(sFVar);
-		sFVar = 40;
+//		sFVar = 40;
 		System.out.println(localVar);
 	}
 
@@ -29,8 +29,8 @@ public class VariableDemo {
 		System.out.println(localVar);
 		VariableDemo demo1 = new VariableDemo();
 		System.out.println(demo1.finalVar);
-		demo.finalVar = 10;
-		demo1.finalVar  20;
+//		demo.finalVar = 10;
+//		demo1.finalVar= 20;
 	}
 
 }
