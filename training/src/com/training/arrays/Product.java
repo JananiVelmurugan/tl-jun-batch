@@ -10,9 +10,15 @@ public class Product {
 		this.name = name;
 	}
 
-	void print() {
-		System.out.println(id + "-" + name);
+	Product(int id, String name, double cost) {
+		this(id, name);
+		this.cost = cost;
 	}
+
+	void print() {
+		System.out.println(id + "-" + name + "-" + cost);
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -21,11 +27,15 @@ public class Product {
 		return name;
 	}
 
+	public double getCost() {
+		return cost;
+	}
+
 	public static void main(String[] args) {
 
-		Product[] dummy = {new Product(10, "Pen"), new Product(20, "Pencil"),
-				new Product(30, "Eraser")};
-		
+		Product[] dummy = { new Product(10, "Pen", 100), new Product(20, "Pencil", 200),
+				new Product(30, "Eraser", 300) };
+
 		// Create a products that can store 3 Product Objects
 		Product[] products = new Product[3];
 
@@ -49,10 +59,14 @@ public class Product {
 		products[1].getName();
 
 		System.out.println("Dummy Array");
+		double sum = 0;
 		for (Product temp : dummy) {
 			System.out.println(temp);
-			System.out.println(temp.getId() + "-" + temp.getName());
+//			System.out.println(temp.getId() + "-" + temp.getName());
+			temp.print();
+			sum += temp.getCost();
 		}
+		System.out.println(sum);
 	}
 
 }

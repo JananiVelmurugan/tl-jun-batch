@@ -8,7 +8,13 @@ Methodoverloading
 	+ special method with class name
 	+ may/may not have param
 	+ no return
-+ Constructor Chaining - call a cons from another cons
++ Constructor Chaining 
+this()- in same class call a cons from another cons
+super() - call parent class cons from a child class cons
+
+this - current class instance
+super - super class instance
+
 + Arrays - store elemets that are fixed size of similar type 
 	+ dynamic grow/shrink size an array is not possible
 	+ dynamic array can be created inside loop
@@ -16,4 +22,13 @@ Methodoverloading
 	+ parent/super/root
 	+ child/sub/derived
 	+ is-a relationship
+	+ multiple inheritance not possible - a child class cannot have more than a single parent class
 + Object Substitution
++ polymorphism
+	+ compile time polymorphism - overloading (.java -> .class) 
+	+ run time polymorphism - overriding (.class -> executing)
+	
+Rule for Constructor
++ this() or super() must be a first statement in a constructor
++ if we don't have cons call explicitly compiler insert super()
+	
