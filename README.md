@@ -111,7 +111,29 @@ Example
 input = curiosity
 output = dusipsjtz
 
+18. Create a class with a method which can calculate the sum of first n natural numbers which are divisible by 3 or 5.
+* Method Name - calculateSum
+* Argument - int n
+* Return Type - int sum
+* Logic - Calculate the sum of first n natural numbers which are divisible by 3 or 5.
 
+19. Create a class with a method to find the difference between the sum of the squares and the square of the sum of the first n natural numbers.
+* Method Name - calculateDifference
+* Argument - int n
+* Return Type - int sum
+* Logic - Find the difference between the sum of the squares of the first n natural numbers and the square of their sum.
+For Example if n is 10,you have to find
+(1^2+2^2+3^2+….9^2+10^2)-
+(1+2+3+4+5…+9+10)^2
+
+20. Create a class containing a method to create the mirror image of a String. The method should return the two Strings separated with a pipe(|) symbol .
+* Method Name - getImage
+* Argument - String
+* Return Type - String
+* Logic - Accepts One String. Find the mirror image of the String. Add the two Strings together separated by a pipe(|) symbol.
+For Example
+Input : EARTH
+Output : EARTH|HTRAE
 
 
 
