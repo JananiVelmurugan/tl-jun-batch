@@ -92,11 +92,24 @@ Exercises
 	output:"helowrd"
 
 16. Given a method with two strings as input. Write code to modify the first string such that all characters are replace by plus sign(=) except the characters which are present in the second string. That is, if one or more characters of first string appear in second string, they will not be replace by +. Return the modified string as output. Note-ignore case.
+
 Example:
 input1 = New York
 input2 = New Jersy
-output = New Y+r+ 
+output = New Y+r+
 
+17. Given a method with a string input. Write code to encrypt the given string using following rules and return the encrypted string:
+
+a. Replace the character at odd positions by next character in alphabet
+b. Leave the characters at even positions unchanged
+
+Note:
+* if an odd position character is 'z' replace it by 'a'
+* assume the first character in the string is at position 1
+
+Example
+input = curiosity
+output = dusipsjtz
 
 
 
