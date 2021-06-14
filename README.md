@@ -90,3 +90,15 @@ Exercises
 15. Display unique characters in a string.
 	input:"helloworld"
 	output:"helowrd"
+
+16. Given a method with two strings as input. Write code to modify the first string such that all characters are replace by plus sign(=) except the characters which are present in the second string. That is, if one or more characters of first string appear in second string, they will not be replace by +. Return the modified string as output. Note-ignore case.
+Example:
+input1 = New York
+input2 = New Jersy
+output = New Y+r+ 
+
+
+
+
+
+

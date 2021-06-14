@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="com.training.primitivetypes.TypeDeclaration"/>
 <fullyQualifiedTypeName name="com.training.oops.BiCycle"/>
 <fullyQualifiedTypeName name="com.training.oops.VariableDemo"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="com.training.inheritance.ScienceBook"/>
 </qualifiedTypeNameHistroy>

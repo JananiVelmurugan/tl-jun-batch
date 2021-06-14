@@ -10,10 +10,10 @@ public class BookTest {
 //		book.read();
 //		System.out.println("Science Book");
 //		ScienceBook scienceBook = new ScienceBook();
-		Book scienceBook = new ScienceBook();
-		System.out.println(scienceBook.id);
-		System.out.println(scienceBook.name);
-		scienceBook.read();
+//		Book scienceBook = new ScienceBook();
+//		System.out.println(scienceBook.id);
+//		System.out.println(scienceBook.name);
+//		scienceBook.read();
 //		scienceBook.buy();
 //		System.out.println("Story Book");
 //		StoryBook storyBook = new StoryBook();
@@ -28,6 +28,12 @@ public class BookTest {
 //		b = new StoryBook();
 //		b.read();
 
+		Book bk = new Book();
+		System.out.println(bk);
+		bk.read();
+		ScienceBook sciBook = new ScienceBook();
+		sciBook.read();
+		sciBook.read("Kindle");
 	}
 
 }
