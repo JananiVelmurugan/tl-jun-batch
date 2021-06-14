@@ -135,5 +135,76 @@ For Example
 Input : EARTH
 Output : EARTH|HTRAE
 
+21. Given a method with an int array. Write code to find the power of each individual element according to its position index, add them up and return as output.
+Example:
+input = {3,6,2,1}
+output = (3)0+(6)1+(2)2+(1)3 = 1+6+4+1=12
+
+22. Given a method with a string input. Write code to test if first and last characters are same. Incase they are same return 1 else return -1 as output. Note: consider case.
+Example:
+input = "the picture was great"
+(first character = 't', last character = 't')
+output = 1
+
+23. Profit Calculation 
+Inorder to calculate profit percentage of the Electronic gadgets sold in a store, you need to store the buying price and selling price of the gadgets.
+Write a program to store the buying price and selling price of the products and print the values to the console.
+Note:
+•	Create the variables buyingPrice,sellingPrice
+•	Assign the variables with values for buying price as 20.54 and selling price as 30.50
+Sample Output: 
+Buying price is 20.54
+Selling price is 30.50
+
+24. Profit and Loss 
+Sam purchased x dozens of toys at the rate of Rs. y per dozen. He sold each one of them at the rate of Rs. z. Can you please help him out percentage of profit? 
+Given the values of x, y and z, write a program to compute Sam's profit percentage. 
+Example: 
+Dozens of toys purchased (x) = 20 
+Rate per dozen (y) = Rs. 375 
+Selling price per toy (z) = Rs. 33 
+Cost Price of 1 toy = 375/12 = Rs. 31.25 
+Selling Price of 1 toy = Rs.33 
+Profit = 33 - 31.25 = Rs. 1.75 
+Profit % = 1.75 / 31.25 * 100 = 5.6% 
+Input Format: 
+Input consists of 3 integers – x, y and z. 
+x - Number of dozens purchased. 
+y - Cost per dozen. 
+z - Selling price per item. 
+Output Format: 
+Refer Sample Input and Output for formatting details. The profit percentage needs to be printed correct to 2 decimal places. 
+Sample Input and Output: 
+number of dozens of toys purchased 
+20 
+price per dozen 
+375 
+selling price of 1 toy 
+33 
+Sam's profit percentage is 5.60 percent 
+
+25. Discount Calculation 
+Calculate the discount based on the price of two items and the overall discount percentage. 
+Input Format: 
+1.	Item 1 price as floating point 
+2.	Item 2 price as floating point 
+3.	Discount as integer 
+Output Format: 
+1.	Total of Item 1 and Item 2 
+2.	Price after discount (correct to 2 decimal places) 
+3.	Amount discounted (correct to 2 decimal places) 
+Sample Input and Output Format: 
+Sample Input and Output: 
+Price of item 1 : 
+20.50 
+Price of item 2 : 
+45.40 
+Discount in percentage : 
+10 
+Total amount : $65.90 
+Discounted amount : $59.31 
+Saved amount : $6.59 
+
+
 
 
