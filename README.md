@@ -186,13 +186,13 @@ Sam's profit percentage is 5.60 percent
 25. Discount Calculation 
 Calculate the discount based on the price of two items and the overall discount percentage. 
 Input Format: 
-1.	Item 1 price as floating point 
-2.	Item 2 price as floating point 
-3.	Discount as integer 
+a.	Item 1 price as floating point 
+b.	Item 2 price as floating point 
+c.	Discount as integer 
 Output Format: 
-1.	Total of Item 1 and Item 2 
-2.	Price after discount (correct to 2 decimal places) 
-3.	Amount discounted (correct to 2 decimal places) 
+a.	Total of Item 1 and Item 2 
+b.	Price after discount (correct to 2 decimal places) 
+c.	Amount discounted (correct to 2 decimal places) 
 Sample Input and Output Format: 
 Price of item 1 : 
 20.50 
