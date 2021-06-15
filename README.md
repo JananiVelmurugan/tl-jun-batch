@@ -507,9 +507,7 @@ Call the super class constructor to initialize the shapeName as "Circle".
 Create a class Main to capture the input details from the user and display the calculated area to the user. 
 
 Sample Input and Output 1: 
-1. Rectangle 
-2. Square 
-3. Circle 
+1.Rectangle 2.Square 3.Circle 
 Area Calculator --- Choose your shape 
 1 
 Enter length and breadth: 
@@ -518,9 +516,7 @@ Enter length and breadth:
 Area of Rectangle is:4000.00 
 
 Sample Input and Output 2: 
-1. Rectangle 
-2. Square 
-3. Circle 
+1.Rectangle 2.Square 3.Circle 
 Area Calculator --- Choose your shape 
 2 
 Enter side: 
@@ -528,9 +524,7 @@ Enter side:
 Area of Square is:400.00 
 
 Sample Input and Output 3: 
-1. Rectangle 
-2. Square 
-3. Circle 
+1.Rectangle 2.Square 3.Circle 
 Area Calculator --- Choose your shape 
 3 
 Enter Radius: 
@@ -552,13 +546,13 @@ Call the super class constructor to initialize the shapeName as "Hexagon".
 Include appropriate getters and setters in all the given classes. 
 Create a class Main to capture the input details from the user and display the calculated area to the user. 
  
- Sample Input and Output 1: 
-1. Rectangle 
-2. Square 
-3. Circle 
-4. Hexagon 
+Sample Input and Output 1: 
+A. Rectangle 
+B. Square 
+C. Circle 
+D. Hexagon 
 Area Calculator --- Choose your shape 
-4 
+D 
 Enter Side: 
 20 
 Area of Hexagon is: 0.00 
