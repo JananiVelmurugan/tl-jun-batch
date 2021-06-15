@@ -547,12 +547,9 @@ Include appropriate getters and setters in all the given classes.
 Create a class Main to capture the input details from the user and display the calculated area to the user. 
  
 Sample Input and Output 1: 
-A. Rectangle 
-B. Square 
-C. Circle 
-D. Hexagon 
+1. Rectangle 2. Square 3. Circle 4. Hexagon 
 Area Calculator --- Choose your shape 
-D 
+4
 Enter Side: 
 20 
 Area of Hexagon is: 0.00 
