@@ -347,6 +347,7 @@ Product Name is Printer
 Supplier Name is HP 
  
 37. Product Details (Constructors) 
+
 Create a class named Product with the following private member variables. 
 •	id of type Long 
 •	productName of type String 
@@ -355,8 +356,8 @@ Include appropriate getters and setters.
 Include a 3-argument constructor and a default constructor. 
 Create a method “void display()” to display the product details. 
 Create another class and write a main method to perform the following steps: 
-1.	Read the input 
-2.	Create instance of Product using 3 argument constructor. 
+.	Read the input 
+.	Create instance of Product using 3 argument constructor. 
 
 Sample Input and Output : 
 Enter the product id 
