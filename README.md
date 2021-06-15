@@ -546,8 +546,7 @@ Call the super class constructor to initialize the shapeName as "Hexagon".
 Include appropriate getters and setters in all the given classes. 
 Create a class Main to capture the input details from the user and display the calculated area to the user. 
  
-Sample Input and Output 1: 
-1. Rectangle 2. Square 3. Circle 4. Hexagon 
+Sample Input and Output 1: 1.Rectangle 2. Square 3. Circle 4. Hexagon 
 Area Calculator --- Choose your shape 
 4
 Enter Side: 
