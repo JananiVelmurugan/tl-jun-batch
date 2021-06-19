@@ -23,7 +23,7 @@ super - super class instance
 	+ child/sub/derived
 	+ is-a relationship
 	+ multiple inheritance not possible - a child class cannot have more than a single parent class
-+ Object Substitution
++ Object Substitution - Parent instance can hold the child objects
 + polymorphism
 	+ compile time polymorphism - overloading (.java -> .class) 
 	+ run time polymorphism - overriding (.class -> executing)
@@ -31,4 +31,3 @@ super - super class instance
 Rule for Constructor
 + this() or super() must be a first statement in a constructor
 + if we don't have cons call explicitly compiler insert super()
-	

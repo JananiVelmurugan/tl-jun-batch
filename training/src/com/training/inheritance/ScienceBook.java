@@ -16,10 +16,10 @@ public class ScienceBook extends Book {
 		// super();
 	}
 
-	@Override
-	void read() {
-		System.out.println("I am reading a ScienceBook");
-	}
+//	@Override
+//	void read() {
+//		System.out.println("I am reading a ScienceBook");
+//	}
 
 	void read(String device) {
 		System.out.println("I am reading a Science book in " + device);

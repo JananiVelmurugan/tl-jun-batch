@@ -1,0 +1,78 @@
+Abstract class(is-a)
++ class marked as an abstract
++ method 
+	+ concrete method - method definition
+	ex:
+	int add(int a, int b){ return a+b; }
+	+ abstract method - no method definition(implementation is hidden) 
+	ex:
+	int add(int a, int b);
++ hiding the method implementation 
+	ex: abstract int add(int a,int b);
++ hiding the method - visibility is hidden 
+	ex: private int add(int a, int b){ return a+b;}
++ any one of the method is marked as an abstract, then mark the class an abstract
++ contract / aggreement - impose between classes
++ class vs abstractclass
+	+ class 
+		+ only concrete methods
+		+ can be instantiated ex: Book b = new Book();
+	+ abstract class 
+		+ can have both abstract methods & concrete methods 
+		+ cannot be instantiated ex: Book b; 
+		
+Interface part-1, 2
++ completely methods are hidden 
++ can have only abstract methods 
++ public static final variables(constant)
++ no relationship(is-a) between classes but have a common behaviour 
+ex: 
+Bird, Superman, AirPlane - interface Fly
+Animal, Car - interface Travel, interface Owner
++ Interface vs Abstract Class 
+	+ Interface 
+		+ no is-a relationship
+		+ cannot be instantiated
+		+ class implements interface 
+		+ interface extends interface 
+		+ all fields are by default public static final only  
+		+ all methods are by default abstract only
+		+ multiple inheritance is possible 
+	+ Abstract Class
+		+ is a relationship
+		+ cannot be instantiated 
+		+ class extends class or abstract class
+		+ fields can be modified in the child 
+		+ can have both abstract and concrete methods
+		+ multiple inheritance is not possible
+Composition and Aggregation
++ has-a 
++ consists of 
++ group of 
+ex: Employee works for Project, Project consits of modules, 
+Package and Import
+	+ grouping/organizing of classes,interface,abstract 
+	+ easy to maintain
+	+ easy to debug/test
+	+ syntax : package  orgtype.orgname.proname.modulename;
+	ex: com.amazon.kindle.Book;
+	+ use : import fullyqualified name;
+	ex: import com.amazon.kindle.Book;
+	+ java.lang - is the default package imported
+	+ static import - importing static methods & fields
+	+ jar - java archive file
+		+ compressed class files 
+		+ import(using), export(creation) jar 
+Access Modifier  - class, methods, field 
+	+ public 
+	+ default - package private
+	+ protected - class & its sub class
+	+ private 
+	+ class
+		+ cannot have private,protected class
+		+ it can be public,default,final,abstract 
+	+ field/method - can be public,private,protected,default,final,static 
+	+ local variable - can oly be final 
+	
+
+

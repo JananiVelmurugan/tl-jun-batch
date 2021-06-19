@@ -10,3 +10,4 @@ ctrl + / = comment/uncomment
 ctrl + w = close window
 ctrl + shift + w = close all window
 alt + shift + r = run
+ctrl + shift + o = organize imports
