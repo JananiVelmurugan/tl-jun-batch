@@ -19,6 +19,8 @@ public class Test1 {
 		System.out.println(c);
 		System.out.println(d);
 //		Test1 obj = new Test1();
+		
+//	 double result = Math.sqrt(((x1+x2)*(x1+x2))+((y1+y2)*(y1+y2)));
 	}
 	
 }

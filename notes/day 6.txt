@@ -1,0 +1,64 @@
+Autoboxing
++ Autoboxing - converting primitive to objects
++ Unboxing - converting objects to primitives
+Wrapper Classes 
++ java.lang(imported by default)
++ for every primitve, there is a corresponding wrapper class
++ byte - Byte
++ short - Short
++ int - Integer
++ double - Double
++ char - Character
++ float - Float
++ long - Long
++ boolean - Boolean
+ref :
+https://docs.oracle.com/javase/tutorial/java/data/numberclasses.html
+https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html
+
+Varargs
++ to pass an arbitrary number of values to a method. 
++ when you don't know how many of a particular(specific) type of argument will be passed to the method. 
++ It's a shortcut to creating an array manually.
++ follow the type of the last parameter by an ellipsis (three dots, ...)
+
+Enums
++ create static final field 
++ create constant
++ An enum type is a special data type that enables for a variable to be a set of predefined constants. 
++ The variable must be equal to one of the values that have been predefined for it. 
+ex: PaymentType - card,netbanking,wallet,foodcard
+class is a Type
+enum is a Type 
+https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+
+Generics
++ Generics add stability to your code by making more of your bugs detectable at compile time. 
++ Allows a type or method to operate on objects of various types while providing compile-time type safety.
+ref:
+https://docs.oracle.com/javase/tutorial/java/generics/index.html
+https://docs.oracle.com/javase/tutorial/extra/generics/methods.html
+Java.lang.Object part-1
+Java.lang.Object part-2 Equals and hashcode
+Java.lang.Object part-3 Clone
+https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html
+
+toString()
++ Returns a string representation of the object.
++ In general, the toString method returns a string that "textually represents" this object. 
++ The result should be a concise but informative representation that is easy for a person to read. 
++ It is recommended that all subclasses override this method.
+
+hashcode() & equals()
++ That it is generally necessary to override the hashCode method whenever this method is overridden, so as to maintain the general contract for the hashCode method, 
+  which states that equal objects must have equal hash codes.
++ If two objects are equal according to the equals(Object) method, 
+  then calling the hashCode method on each of the two objects must produce the same integer result.
+
+clone()
++ copy - shallow copy, deep copy
++ shallow copy is possible
++ Cloneable Interface
++ marker interface
+Java.lang General Classes
+Java.lang.String,StringBuffer,StringBuilder

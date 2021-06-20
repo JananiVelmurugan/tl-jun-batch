@@ -27,7 +27,7 @@ Interface part-1, 2
 + public static final variables(constant)
 + no relationship(is-a) between classes but have a common behaviour 
 ex: 
-Bird, Superman, AirPlane - interface Fly
+Bird(Crow,Pigeon), Superman, AirPlane - interface Fly
 Animal, Car - interface Travel, interface Owner
 + Interface vs Abstract Class 
 	+ Interface 
@@ -72,7 +72,7 @@ Access Modifier  - class, methods, field
 		+ cannot have private,protected class
 		+ it can be public,default,final,abstract 
 	+ field/method - can be public,private,protected,default,final,static 
-	+ local variable - can oly be final 
+	+ local variable - can only be final 
 	
 
 

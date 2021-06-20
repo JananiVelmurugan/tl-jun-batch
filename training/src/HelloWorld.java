@@ -10,4 +10,9 @@ public class HelloWorld {
 		System.out.println(a + b);
 	}
 
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
 }

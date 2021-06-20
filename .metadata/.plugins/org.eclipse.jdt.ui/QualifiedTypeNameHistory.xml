@@ -4,5 +4,18 @@
 <fullyQualifiedTypeName name="com.training.oops.BiCycle"/>
 <fullyQualifiedTypeName name="com.training.oops.VariableDemo"/>
 <fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="com.training.abstractdemo.ScienceBook"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="com.training.abstractdemo.Book"/>
+<fullyQualifiedTypeName name="com.training.demo.AuthorService"/>
+<fullyQualifiedTypeName name="com.training.package1.Test1"/>
 <fullyQualifiedTypeName name="com.training.inheritance.ScienceBook"/>
+<fullyQualifiedTypeName name="com.training.inheritance.StoryBook"/>
+<fullyQualifiedTypeName name="com.training.java5.Gender"/>
+<fullyQualifiedTypeName name="com.training.arrays.Product"/>
+<fullyQualifiedTypeName name="com.training.inheritance.Book"/>
+<fullyQualifiedTypeName name="com.training.abstractdemo.StoryBook"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="com.training.lang.Department"/>
 </qualifiedTypeNameHistroy>
