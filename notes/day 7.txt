@@ -1,0 +1,55 @@
+String - 1.0 
++ immutable - every immutable object is by default thread safe
++ synchronized - string can be accessed by a single thread at a time
++ thread safe -  performance is not recommended
+ex: 
+String name = "Test" --> literal(recommended - SCP)
+name + "Leaf" (or) name.concat("Leaf")
+"Test" , "TestLeaf" 
+String name = new String("Test"); --> obj reference
+
+StringBuffer - 1.0
++ mutable
++ synchronized - stringbuffer can be accessed by a single thread at a time
++ thread safe - performance is not recommended
+ex:
+StringBuffer sb = "Test"; (not possible)
+StringBuffer sb = new StringBuffer("Test");
+sb.append("Leaf")
+"TestLeaf"
+
+StringBuilder - 1.5
++ mutable
++ non-synchronized - stringbuilder can be accessed by multiple threads at a time
++ not thread safe  - performance will be good
+StringBuilder sb = "Test"; (not possible)
+StringBuilder sb = new StringBuilder("Test");
+sb.append("Leaf")
+"TestLeaf"
+
+Exception
+https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html
+An exception is an event that occurs during the execution of a program that disrupts the normal flow of instructions.
+The use of exceptions to manage errors 
++ try -  enclose the code that might throw an exception
++ catch - enclose the code that handle an exception 
++ finally - always executes when the try block exits, it allows the programmer to avoid having cleanup code
++ throw
++ throws - declare an exception(checked/unchecked) 
+Syntax:
+ The throws clause comprises the throws keyword followed by a comma-separated list of all the exceptions thrown by that method.
+ The clause goes after the method name and argument list and before the brace that defines the scope of the method
++ UserDefined Exception - Exception
++ Types  - 2 types
+	+ Checked Exception (CompileTime)
+		+ ex: CloneNotSupportedException, MalformedURLException
+	+ Unchecked Exception (Runtime)
+		+ ex: ArithmeticException, StringIndexOutOfBoundsException
++ Two ways to deal with the exception 
+	+ declare - throws  
+	+ handle - try,catch,finally
+Rules
++ try must be followed by either catch or finally 
++ nested try is possible 
++ try with multiple catch blocks are possible 
+spawn main thread - default thread

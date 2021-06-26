@@ -10,8 +10,15 @@ public class StringComparision {
 //		System.out.println(org);
 
 		String org1 = new String("Test");
-		System.out.println(org == org1);
-		System.out.println(org.equals(org1));
+		System.out.println(org == org1);// not recommended - obj reference equality
+		System.out.println(org.equals(org1)); //recommended - value equality check
+		
+		String paymentType = new String("NetBanking");
+		if(paymentType.equalsIgnoreCase("NetBanking")) {
+			System.out.println("Please enter your id");
+		}else {
+			System.out.println("Invalid Payment Type");
+		}
 		String org3 = "Test";
 		System.out.println(org == org3);
 		System.out.println(org.equals(org3));
