@@ -23,6 +23,8 @@ public abstract class ExceptionTest {
 //		Employee emp1 = new Employee();
 //		emp1.clone();
 
+//		doClone();
+
 		try {
 			doDivide();
 //			System.out.println("After doDivide()");
@@ -41,12 +43,15 @@ public abstract class ExceptionTest {
 		}
 
 		try {
+			System.out.println("Test".charAt(3));
 			doDivide();
 			doClone();
 		} catch (CloneNotSupportedException cnse) {
 			System.out.println(cnse);
 		} catch (ArithmeticException ae) {
 			System.out.println(ae);
+		} catch (Exception e) {
+			System.out.println(e);
 		} finally {
 			System.out.println("After doDivide()");
 			System.out.println("After doClone()");
@@ -54,10 +59,12 @@ public abstract class ExceptionTest {
 
 		try {
 			doDivide();
-			doClone();
-		} catch (CloneNotSupportedException cnse) {
-			System.out.println(cnse);
-		} finally {
+			// doClone();
+		}
+//		catch (CloneNotSupportedException cnse) {
+//			System.out.println(cnse);
+//		} 
+		finally {
 			System.out.println("After doDivide()");
 			System.out.println("After doClone()");
 		}
@@ -66,7 +73,7 @@ public abstract class ExceptionTest {
 
 	static void doDivide() throws ArithmeticException {
 		System.out.println("Unchecked Exception");
-		System.out.println(1 / 1);
+		System.out.println(1 / 0);
 	}
 
 	static void doClone() throws CloneNotSupportedException {

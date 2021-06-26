@@ -34,8 +34,11 @@ The use of exceptions to manage errors
 + try -  enclose the code that might throw an exception
 + catch - enclose the code that handle an exception 
 + finally - always executes when the try block exits, it allows the programmer to avoid having cleanup code
-+ throw
+	+ contains closing or cleanup code such as files, db, collections, streams
++ throw - raise an exception explicitly, inside a method, constructor, raise any type of excpetion subclasses of throwable
+	+ syntax : throw object_instance;
 + throws - declare an exception(checked/unchecked) 
+https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html
 Syntax:
  The throws clause comprises the throws keyword followed by a comma-separated list of all the exceptions thrown by that method.
  The clause goes after the method name and argument list and before the brace that defines the scope of the method
@@ -53,3 +56,4 @@ Rules
 + nested try is possible 
 + try with multiple catch blocks are possible 
 spawn main thread - default thread
+
