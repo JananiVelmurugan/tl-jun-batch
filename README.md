@@ -34,7 +34,7 @@ Exercises
 
 7. Email Validation. Output is false if the validation fails else true.
    String input1="test@gmail.com"
-                1)@ & : should be present;
+                1)@ & . should be present;
                 2)@ & . should not be repeated;
                 3)there should be four charcters between @ and .;
                 4)there shouls be atleast 3 characters before @ ;
