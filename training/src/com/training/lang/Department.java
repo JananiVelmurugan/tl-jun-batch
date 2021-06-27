@@ -1,6 +1,6 @@
 package com.training.lang;
 
-public class Department implements Cloneable {
+public class Department extends Object implements Cloneable {
 	int id;
 	String name;
 
@@ -31,9 +31,10 @@ public class Department implements Cloneable {
 	}
 
 	@Override
-	protected Object clone() throws CloneNotSupportedException {
+	public Object clone() throws CloneNotSupportedException {
 		return super.clone();
 	}
+	
 	public static void main(String[] args) throws CloneNotSupportedException {
 
 		Department d1 = new Department(2001, "Dev");
