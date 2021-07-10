@@ -22,10 +22,6 @@ Scenarios
 + phonebook - key - name , value - contact
 + dictionary - key - word, value - meaning
 
-Java.util data structures - vector, hashtable 
-Java.util how Hashtable works
-Collection Queue and Stack
-
 Java.util Collection API introduction
 Collection - Interface, Abstract Class, Concrete Class
 Java.util Collection List

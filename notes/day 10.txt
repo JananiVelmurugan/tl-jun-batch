@@ -1,0 +1,154 @@
+Java.util data structures - vector, hashtable 
+Java.util how Hashtable works
+Collection Queue and Stack
+
+
+Ordered Vs Sorted Collection  
+Ordered - List, LinkedList, ArrayList, LinkedHashSet,LinkedHashMap
++ insertion irrespective of value 
+ex: 8,3,4,5,2
+Sorted - TreeMap,TreeSet 
++ based on the input (ascending order)
+ex: 3,7,2,9,1
+1,2,3,7,9
+
+Vector 
+- synchronized , single dimensional array, growable array  
+- capacity - doubled 
+	10 - inserting 11 
+	20 - insering 21
+HashTable 
+- stores value in pair <Key,Value>
+- Entry - hash, key, value, index
+- hash - hashcode of the key  unique hex decimal code to identify the entry
+- <Key, Value> - actual data 
+- index - position where the entry should be stored
+- when two objects are said to be equal, then its hashcode value must be equal 
+ Algorithm
+ Step 1: compute hash based on the hashcode
+ Step 2: compute index based on the hash 
+ Step 3: place the Entry<Key,Value> in the computed index 
+Stack - LIFO - peek(),push(),pop()
+Queue - FIFO 
+
+Frequently used methods
+add()
+put()
+get()
+size()
+iterator()
+next()
+getKey()
+getValue()
+entrySet()
+keySet()
+
+Collection - interface
+Collections - helper class
+
+SQL - Structure Query Language
++ to query any db(oracle,mysql)
+
+SQL Statements
+create, insert,update, delete,select, commit, rollback 
+
+PL/SQL 
+procedure, function
+
+
+JDBC 
++ jdbc - java provides set of standards - java.sql
++ microsoft provides set of standards - odbc open db connectivity 
++ driver - software available for every type of db prod, ex:ojdbc,mysql connector
+Introduction
++ Types of Driver - 4
+	1. JDBC - ODBC Bridge - not available from JDK8
+	2. Native Driver - c, c++ (not in production used for testing,training)
+	3. Partial Native & Partial Java - little dependent 
+	4. Pure Java - independent (Spring DAO, Hibernate) 
++ Connection
++ Statement
++ PreparedStatement
++ CallableStatement
+
+-- create database
+-- create database emp_db;
+-- use emp_db;
+
+-- create table 
+create table employee_info
+(
+    id number(10),
+    name varchar(20)
+);
+
+select *
+from employee_info;
+
+insert into employee_info values(100,'raj');
+insert into employee_info values(200,'suraj');
+insert into employee_info values(300,'reji');
+
+commit;
+
+update employee_info 
+set name='raja'
+where id = 100;
+
+delete from employee_info
+where id=300;
+
+Scenarios
+Book a movie ticket :
++ Table ticket - insert into ticket values();
++ input : date,number_of_tickets, movie_name,screening_time 
+
+View a ticket 
++ Table ticket - select * from ticket where ticket_id=?;
++ input : ticket_id 
+
+View All Tickets
++ Table ticket - select * from tickets;
+
+Cancel a ticket 
++ Table ticket - update ticket set status='inactive' where ticket_id=?
+
+Task Implemented - CRUD
+	insert an employee 
+	update an employee based on id  
+	delete an employee based on id 
+	select all employees 
+	select an emloyee based on id 
+	
+SQL Task
+add a column salary in table  
+
+JDBC Task 
+	who is getting the max sal?
+	who is getting the min sal?
+	what is the total sal of all employees?
+	who are all getting a salary<10000?
+	promote an employee - update their salary 
+
+1. Download jdbc jar specific to db 
+	mysql - https://downloads.mysql.com/archives/c-j/
+	oracle - C:\app\Admin\product\18.0.0\dbhomeXE\jdbc\lib 
+2. add external jars - add drivers in the classpath
+3. JDBC steps
+	a. Loading the driver 
+	b. Get the connection - using parameter like url,username,password 
+Mysql 
+Class.forName("com.mysql.jdbc.Driver");  
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","root");  
+Oracle
+Class.forName("oracle.jdbc.driver.OracleDriver");
+Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "root","password");
+	
+	
+
+
+
+ 
+
+
+

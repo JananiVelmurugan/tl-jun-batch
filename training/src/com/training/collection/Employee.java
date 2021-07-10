@@ -5,12 +5,15 @@ public class Employee {
 	int id;
 	String name;
 
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + id;
-		return result;
+		return id + 12 * 30;
 	}
 
 	@Override
@@ -25,6 +28,11 @@ public class Employee {
 		if (id != other.id)
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + "]";
 	}
 
 }
