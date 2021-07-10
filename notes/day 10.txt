@@ -138,15 +138,28 @@ JDBC Task
 	a. Loading the driver 
 	b. Get the connection - using parameter like url,username,password 
 Mysql 
-Class.forName("com.mysql.jdbc.Driver");  
+Class.forName("com.mysql.cj.jdbc.Driver");  
 Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","root");  
 Oracle
 Class.forName("oracle.jdbc.driver.OracleDriver");
 Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "root","password");
 	
-	
+Query Execution Plan
+Statement 
+- for every query each time plan will be created 
+PreparedStatement 
+- will create a plan only once and it caches for further exec
+- dynamic query inputs is possible
+CallableStatement
+- used to execute procedure/function 
+param modes
+- in(default)
+- out
+- inout 
 
-
+Metadata - info about the env
++ Connection 
++ ResultSet 
 
  
 
