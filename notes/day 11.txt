@@ -1,0 +1,35 @@
+IO - Input/Output
++ Prior to 1.4 package java.io - Blocking IO 
++ 1.4 - package java.nio - Non-Blocking IO 
++ Scanner 
+	- class to read inputs from console & write outputs to console  
+	- java.util
++ Blocking IO 
+	- When a file is being read/written
+		+ JVM tries to read the file from filesystem/socket(D://file.txt)
+		+ Runs in a thread called Main
+		+ if file.txt is being used, main thread need to wait
++ Non-Blocking IO 
+	- When a file is being read/written
+		+ JVM tries to read the file from filesystem/socket(D://file.txt)
+		+ Runs in a thread called Main
+		+ if file.txt is being used, main thread need not wait
+		+ when file is available for use, thread will be notified 
++ InputStream, OutputStream, Reader, Writer
++ Stream - (non-textual files)
+	- read/write data from/to a filesystem/socket
+	- read byte by byte 
+	- ex: image
++ Reader,Writer 
+	- read/write data from/to a filesystem/socket
+	- reads char by char 
+	- ex: textual
++ All IO Exceptions are checked exception
++ Non-Blocking IO - Buffer Oriented 
+		+ Channel - gateway/ medium to transfer data  
+		+ Buffer
+		+ Selector - multiple channels using a single thread. Less threads to handle the channels.
+	+ Two-way data transfer - java program to data source and viceversa
+	
++ Serialization vs Deserialization 
+JUnit 
