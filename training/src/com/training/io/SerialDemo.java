@@ -40,7 +40,8 @@ public class SerialDemo {
 		}
 
 		catch (IOException ex) {
-			System.out.println("IOException is caught");
+			// System.out.println("IOException is caught");
+			ex.printStackTrace();
 		}
 
 		object = null;
@@ -64,7 +65,8 @@ public class SerialDemo {
 		}
 
 		catch (IOException ex) {
-			System.out.println("IOException is caught");
+			// System.out.println("IOException is caught");
+			ex.printStackTrace();
 		}
 
 		catch (ClassNotFoundException ex) {

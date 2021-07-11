@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class CalculatorTest {
+public class CalculatorTest2 {
 	static Calculator c = null;
 
 	@BeforeClass

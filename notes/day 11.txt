@@ -29,7 +29,31 @@ IO - Input/Output
 		+ Channel - gateway/ medium to transfer data  
 		+ Buffer
 		+ Selector - multiple channels using a single thread. Less threads to handle the channels.
-	+ Two-way data transfer - java program to data source and viceversa
-	
-+ Serialization vs Deserialization 
+	+ Two-way data transfer - java program to data source and viceversa	
++ Serialization vs Deserialization - Serializable,Externalizable
+Use case - save the state of an object in a file for future reference or 
+to send it across the network, deep copy 
++ state of an object - value for the prop will be stored 
++ Serial -  process of converting object into byte and write in a file, ObjectOutputStream
++ Deserial - process of reading byte from a file - convert byte into object, ObjectInputStream
+ex: Employee - emp.clone() - create new emp 
++ id 
++ name 
++ transient age 
++ sal 
++ Dept dept - dept.clone() - create new dept 
++ deep copy vs shallow copy 
 JUnit 
++ single piece of functionality is tested 
++ create a new source folder - 'test'
++ add library - junit4
++ code coverage - 80%
++ annotations
+	+ @Test 
+	+ @Ignore 
+	+ @Before, @After - initializing , closing resources to test methods
+	+ @BeforeClass, @AfterClass - test class 
+	+ @RunWith
+	+ @Suite.SuiteClasses
++ Task 
+	+ Create Junit Test Cases for dao
