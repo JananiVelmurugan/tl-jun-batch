@@ -8,7 +8,7 @@ public class Employee {
 	
 	@Override
 	public String toString() {
-		return id +" = "+ salary +" = "+orgName;
+		return id + " = " + salary + " = " + orgName;
 	}
 	public Employee(){
 		

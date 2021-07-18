@@ -2,6 +2,7 @@ package com.training.lamdbafunctions;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 
 public class PredicateTest {
@@ -45,6 +46,9 @@ public class PredicateTest {
 		System.out.println("Using Lambda to print google emp & sal > 40000");
 		Predicate<Employee> googleSalEmp = googleEmp.and(salEmp);
 		printEmp(empList, googleSalEmp);
+
+		IntPredicate idEmp = (id) -> id == 1;
+		Predicate<Employee> idEmpPredicate = (empl) -> empl.getId() == 1;
 
 	}
 
