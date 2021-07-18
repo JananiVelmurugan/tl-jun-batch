@@ -4,10 +4,11 @@ FunctionalInterface
 	1. Predicate - boolean test(T t), any condition on any object
 		IntPredicate, DoublePredicate, LongPredicate, BiPredicate 
 	2. Consumer - void	accept(T t),  accepts a single input argument and returns no result 
+		IntConsumer, DoubleConsumer, LongConsumer, BiConsumer
 	3. Function - R	apply(T t), accepts one argument and produces a result 
 	4. Supplier - T	get(), create an object & return the same 
-	5. UnaryOperator -  T apply(T t), Represents an operation on a single operand that produces a result of the same type as its operand.
-	6. BinaryOperator - T apply(T t, T u), Represents an operation upon two operands of the same type, producing a result of the same type as the operands.
+	5. UnaryOperator(Function) -  T apply(T t), Represents an operation on a single operand that produces a result of the same type as its operand.
+	6. BinaryOperator(BiFunction) - T apply(T t, T u), Represents an operation upon two operands of the same type, producing a result of the same type as the operands.
 	
 	ex: a + b 
 	+ - operator
@@ -18,5 +19,8 @@ FunctionalInterface
 	Predicate1.and(Predicate2)
 autoboxing - converting primitive to object 
 unboxing - coverting object to primitive 
+
+enhanced for-loop for(int t: list){}
+forEach() - java 8 
 		
 	
