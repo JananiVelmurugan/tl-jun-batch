@@ -28,7 +28,6 @@
 <fullyQualifiedTypeName name="com.training.exception.InvalidIdException"/>
 <fullyQualifiedTypeName name="lombok.Data"/>
 <fullyQualifiedTypeName name="com.test.Employee"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
@@ -43,4 +42,21 @@
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="com.training.collection.Employee"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.junit.runners.Suite"/>
+<fullyQualifiedTypeName name="org.junit.runners.Suite.SuiteClasses"/>
+<fullyQualifiedTypeName name="com.training.CalculatorTest"/>
+<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+<fullyQualifiedTypeName name="com.training.java8interfaces.Shape"/>
+<fullyQualifiedTypeName name="com.training.java8interfaces.Dimensions"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="com.training.innerclass.Employee"/>
+<fullyQualifiedTypeName name="com.training.innerclass.Calculator"/>
+<fullyQualifiedTypeName name="com.training.innerclass.CalculatorImpl"/>
+<fullyQualifiedTypeName name="com.training.innerclass.CalculatorAIC"/>
+<fullyQualifiedTypeName name="com.training.innerclass.TopClassExample"/>
+<fullyQualifiedTypeName name="com.training.innerclass.TopClassExample.InnerClass"/>
+<fullyQualifiedTypeName name="com.training.lambda.Calculator"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>

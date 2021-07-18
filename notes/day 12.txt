@@ -1,0 +1,87 @@
+Annotation
+
+History of configuration - framework like spring,hibernate
++ properties - key,value pairs
++ XML - parent,child tags 
++ json - {}
++ yml 
+
+Advantages
++ java syntax
++ no separate file 
++ predefined annotations & customized annotation
++ configuration for any projects can be written as an annotation 
+
+1. @Override - metadata - configuration of a method
++ Compiler looks for the same method signature defined in parent class
+
+Building blocks
++ @Target - where can I use a specific annotation
++ @Retention - compile vs runtime 
+
+1. Compiletime annotation 
++ .class
+2. Runtime annotation
++ .class 
++ VM 
+
++ Target - methods, class, properties
++ RetentionPolicy - Source, Class(default), Runtime  
+.java -> .class -> exec
+source -> class -> runtime
+
+interfaces - abstract methods (prior to java8) 
++ higher order functions 
++ concrete methods can be included from Java8 interfaces 
++ static - helper methods  
++ default 
+why ? 
++ backward compatability 
++ existing collection API - lambdas/streams 
+
+scenario 
+- interface Shape 
++ calcArea()
++ static printType()- I am a shape , cannot be overridden
++ default - boolean isSideAvailable() - can be overriden 
+- class Circle,Square  implements Shape - calcArea()
+
+inner class - define a class inside another class  
+why ? - Design Patterns - singleton, factory, builder
+ex: Singleton Pattern 
++ only one object must be created 
++ class Employee 
++ create an object(multiple)
+
+types
++ simple
++ anonymous (priority- lambdas)
+	+ anonymous - any interface - more than 1 abstract method
+	+ lambda - functional interface - SAM - single abstract method 
++ static - builder design pattern
++ inside a method - parameter is final or effectively final 
+
+ex: functional interface - Runnable - run(), Cloneable - clone()  
+Lambda - functional programming 
+
+Rules 
++ an expression to implement a functional interface methods 
+
+Syntax
++ optional - return type, method name, param type 
++ optional - {} when there is a single lambda statement body
++ optional - () when there is a single lambda parameter 
+
+Thread 
++ FinTech 
++ Performance - response for every request  
++ Operating System - processors
+print(int a, int b){
+}
+
+print(function/behaviour){
+}
+
+to the input parameter, you will pass the behaviour in lambda
+https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html 
+ 
