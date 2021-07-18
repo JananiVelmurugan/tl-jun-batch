@@ -22,5 +22,17 @@ unboxing - coverting object to primitive
 
 enhanced for-loop for(int t: list){}
 forEach() - java 8 
+
+Optional - to perform a null check 
++ A container object which may or may not contain a non-null value.
+
+MethodReferences - lambda expressions 
+Types:
++ class::staticmethod
++ instance::instanceMethod
++ class::instanceMethod
++ class::new  
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 		
 	
