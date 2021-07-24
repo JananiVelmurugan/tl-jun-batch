@@ -37,6 +37,7 @@ public class ForkJoinSumCalculator extends RecursiveTask<Long> {
         return leftResult + rightResult;
     }
 
+    // task - summing 0 to 1 lac
     private long computeSequentially() {
         long sum = 0;
         for (int i = start; i < end; i++) {

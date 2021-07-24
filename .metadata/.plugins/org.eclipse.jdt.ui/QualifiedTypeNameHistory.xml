@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.training.primitivetypes.TypeDeclaration"/>
-<fullyQualifiedTypeName name="com.training.oops.BiCycle"/>
-<fullyQualifiedTypeName name="com.training.oops.VariableDemo"/>
-<fullyQualifiedTypeName name="java.math.BigInteger"/>
-<fullyQualifiedTypeName name="com.training.abstractdemo.ScienceBook"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="com.training.abstractdemo.Book"/>
 <fullyQualifiedTypeName name="com.training.demo.AuthorService"/>
 <fullyQualifiedTypeName name="com.training.package1.Test1"/>
 <fullyQualifiedTypeName name="com.training.inheritance.ScienceBook"/>
@@ -59,4 +52,12 @@
 <fullyQualifiedTypeName name="com.training.innerclass.TopClassExample.InnerClass"/>
 <fullyQualifiedTypeName name="com.training.lambda.Calculator"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.util.function.Predicate"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="com.training.lamdbafunctions.SupplierExample"/>
+<fullyQualifiedTypeName name="java.util.function.Supplier"/>
+<fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
+<fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

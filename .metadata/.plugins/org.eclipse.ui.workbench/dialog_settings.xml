@@ -4,19 +4,15 @@
 		<item key="dialogHeight" value="669"/>
 		<item key="dialogWidth" value="829"/>
 		<list key="orderedElements">
-			<item value="org.eclipse.ui.newWizard(newWizardId=org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard)"/>
 			<item value="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.NewTypeDropDown"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.commands"/>
-			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textEntries">
 			<item value="1"/>
-			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="new interface"/>
 			<item value="new class"/>
 		</list>
 	</section>

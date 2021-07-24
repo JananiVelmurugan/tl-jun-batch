@@ -1,0 +1,118 @@
+Pre requisites
++ interfaces 
++ anonymous inner class 
+
+java 8
++ lambda expression 
++ functional interfaces
++ method references
++ stream 
+
+Streams
++ Why?
+	+ functional programming languages uses declarative style 
+	+ creates a pipeline of data
+	+ it's not array,collection,data structure
+	+ it is equivalent to for/iterator 
+	+ declarative programming style - concise control flow  
++ What was there before stream?
+	+ imperative programming style - detailed control flow  of computational logic 
++ Does it improve performance?
+	+ parallel stream - fork join pool (internal multi threading) 
++ Threading 
+	> complex computational logic
+	> improves the performance wrt to time and efficient use of memory
+	> random order
+Usecase 
++ huge amount of data ex: 1 lac numbers and find the max 
+	+ parallel stream 
+	+ for/Iterator
+	+ stream - sequential 
+	
+Two type of operations in streams  
++ Itermediate operations
++ Terminal operations 
+
+Rules
++ when you call a terminal method, the stream will be closed 
++ Until we call a terminal method on streams, none of the intermediate method will be called 
++ Cannot reuse the stream
++ stream are by default sequential  
+
+short-circuit operation
+(a>b && c>d) => if a>b returns false, the rest of the operation is short-circuit 
+(a>b || c>d) => if a>b returns true, the rest of the operation is short-ciruit 
+
+short-circuting operation - infinite streams
+intermediate 
+	+ limit()  
+terminal 
+	+ findFirst()
+	+ findAny()
+	+ anyMatch()
+	+ allMatch()
+	+ noneMatch()
+
+Creating infinite streams 
++ iterate()
++ generate() 
+
+Date Time 
+Executor
+PECS
+
+Sort - Helper Class 
++ Arrays.sort() - quickSort()
++ Collections.sort() - mergeSort()/timSort()
++ sort() cannot be overriden since they are static methods
+
+Comparator
+Ex: AgeComparator, SalaryComparator 
+
+reversedOrder() 
+
+Map sorting based on key 
++ entrySet() - <key,Values>
++ keySet() - Key
++ TreeMap 
+
+Collections vs Streams 
++ DS || Not DS 
++ Can be reused || Cannot be reused (IllegalStateException) 
+
+Terminal Operation - collect(Collectors)
+
+Auto Boxing & Unboxing  
+converting primitive to objects & vice-versa
+
+comparing(General) vs comparingInt(Specific type)
++ comparing - will unnecessary boxing/autoboxing 
++ comparingInt - no type conversion(to avoid)
+
+algoithm in jdk 7 -> fork join pool
+parallel streams - internal fork join pool 
+
+pool - group 
+thread pool - pool of threads
+multi threading - spawn threads manually 
+share the task among the threads spawned by the fork join pool 
+
+fork join pool algo 
+1. initialize a threshold
+2. if threshold <= number of sub task 
+	do task 
+  else divide the task until it reaches the threshold 
+Ex: 
+20 
+1. threshold = 5 
+2. 10 + 10 =>  5+5 , 5+5
+	> thread will be assigned the task and it will execute the task
+
+work stealing algo 
++ 	 threshold = 5 
++ 10 + 10 =>  5+5 , 5+5
+	> thread will be assigned the task and it will execute the 
+	> if any of the thread is overloaded or idle, the task will be stolen 
+	and executed by the thread available 
+
+
