@@ -9,15 +9,18 @@ Spring Introduction
 IDE - Eclipse (Java EE Developer) / STS - Spring Tools Suite
 IoC - Inversion Of Control (Dependency Injection) 
 ex: 
-Inventory 
+Stock - id 
++ id 
+Inventory - name, stock  
 + Product Info
-+ Stock Info 
++ Stock 
 + Merchant Info 
-Product
+Product - inventory
 + Id 
 + Name 
 + Price 
 + Inventory  i = new Inventory();(metadata)
+
 
 POM - Project Object Management 
 
@@ -32,3 +35,19 @@ Central Repo - https://mvnrepository.com/
 Local Repo - C:\Users\Admin\.m2\repository
 
 Doc - https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html
+
+ClassPathXmlApplicationContext - Supports Eager Loading - Beans are created at the start and it is available for use
+BeanFactory - Supports Lazy Loading - Beans are created whenever required. It is deprecated
+
+Bean Scope - lifetime
+Spring Context 
++ Singleton - default  - caches the bean and gives the same reference for all the sub-sequent request 
++ Prototype - does not cache and gives a unique bean for every request 
+Web Context - Web Application  
++ Request
++ Session 
+
+3 Different Config 
++ XML - hard 
++ annotation - @Inject, @Autowired, @Component, @Controller
++ java config - separate java class file @Configuration, @Bean 

@@ -12,24 +12,33 @@
 
 	<!-- Customer customer = new Customer(); customer.setName("Spring Demo"); -->
 
-	<bean id="customerBean" class="com.training.demo1.Customer">
-		<property name="name" value="Spring demo">
+	<bean id="customer" class="com.training.demo1.Customer">
+		<!-- <property name="name" value="Spring demo"> </property> -->
+	</bean>
+
+	<bean id="customer1" class="com.training.demo1.Customer">
+		<property name="name" value="Spring Boot demo">
 		</property>
 	</bean>
 
+	<!-- Account account = new Account(); account.setCustomer(customerBean); -->
 
 
-<!-- Account account = new Account(); account.setCustomer(customerBean); -->
+	<bean name="account" class="com.training.demo1.Account"
+		scope="prototype">
+		<property name="customer">
+			<ref bean="ccCustomer" />
+		</property>
+	</bean>
 
-
-	<bean name="account" class="com.training.demo1.Account">
+	<bean name="account1" class="com.training.demo1.Account">
+		<constructor-arg name="" value="" type=""></constructor-arg>
 
 		<property name="customer">
-			<ref bean="customerBean" />
+			<ref bean="customer1" />
 		</property>
-
-
 	</bean>
-
+	<bean id="ccCustomer" class="com.training.demo1.CCCustomer">
+	</bean>
 
 </beans>

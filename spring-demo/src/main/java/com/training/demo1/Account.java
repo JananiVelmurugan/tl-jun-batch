@@ -1,7 +1,9 @@
 package com.training.demo1;
 
+@Named("account")
 public class Account {
 
+	@Inject
 	private Customer customer;
 
 	public Account() {

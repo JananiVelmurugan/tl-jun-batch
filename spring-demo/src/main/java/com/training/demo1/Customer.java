@@ -4,6 +4,10 @@ public class Customer {
 
 	private String name;
 
+	public void pay() {
+		System.out.println("Customer Pay");
+	}
+
 	public Customer() {
 		System.out.println("Customer Cons");
 	}
