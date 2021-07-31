@@ -1,0 +1,34 @@
+Spring Introduction
++ It is a framework 
++ Benefits 
+	Simpler
+	Light weight 
+	Implementation becomes easier
+	Unit testing is simple
+	Loosely Coupled Components 
+IDE - Eclipse (Java EE Developer) / STS - Spring Tools Suite
+IoC - Inversion Of Control (Dependency Injection) 
+ex: 
+Inventory 
++ Product Info
++ Stock Info 
++ Merchant Info 
+Product
++ Id 
++ Name 
++ Price 
++ Inventory  i = new Inventory();(metadata)
+
+POM - Project Object Management 
+
+Steps: 
+1. File -> New Maven Project -> Check Create a Simple Project 
+2. group id - com.training, artifact id - spring-demo -> Finish
+3. Visit https://mvnrepository.com/
+4. Search spring context and select the version 
+5. copy the maven dependency
+6. In the maven project add <depenencies> tag then paste the maven dependency
+Central Repo - https://mvnrepository.com/
+Local Repo - C:\Users\Admin\.m2\repository
+
+Doc - https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html

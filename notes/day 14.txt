@@ -114,5 +114,30 @@ work stealing algo
 	> thread will be assigned the task and it will execute the 
 	> if any of the thread is overloaded or idle, the task will be stolen 
 	and executed by the thread available 
+	
+java 8 Date & Time - java.time. LocalDate,LocalTime,LocalDateTime 
 
++ cannot get direct input as Date/Time/DateTime 
++ Date as String and convert Date to a specific format  
 
+Converting String to Java Date 
+1. get input date as string - date 
+2. define the datetimeformatter - format 
+3. LocalDate.parse(date, format)
+
+Convert java.sql.Date to java.time.LocalDate 
++ toLocalDate()
+
+Convert java.time.LocalDate to java.sql.Date 
++ Date.valueOf(LocalDate) 
+
+Documentation - well defined & formatted 
+Standards - rules & regulations 
+X -
+Y - 
+
+Q & A 
+10 
+Internal Discussion
+Any Topics 
+PECS 

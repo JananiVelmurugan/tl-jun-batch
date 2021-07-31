@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.training.demo.AuthorService"/>
-<fullyQualifiedTypeName name="com.training.package1.Test1"/>
-<fullyQualifiedTypeName name="com.training.inheritance.ScienceBook"/>
-<fullyQualifiedTypeName name="com.training.inheritance.StoryBook"/>
-<fullyQualifiedTypeName name="com.training.java5.Gender"/>
 <fullyQualifiedTypeName name="com.training.arrays.Product"/>
 <fullyQualifiedTypeName name="com.training.inheritance.Book"/>
 <fullyQualifiedTypeName name="com.training.abstractdemo.StoryBook"/>
@@ -25,12 +20,9 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="lombok.ToString"/>
 <fullyQualifiedTypeName name="com.training.emp.dao.EmployeeDAOImpl"/>
 <fullyQualifiedTypeName name="java.sql.Types"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="com.training.collection.Employee"/>
@@ -59,5 +51,13 @@
 <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
 <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.HMACParameterSpec"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="com.training.innerclass.TopClassExample.StaticInner"/>
 </qualifiedTypeNameHistroy>
