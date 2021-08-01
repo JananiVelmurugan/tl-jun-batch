@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.training.arrays.Product"/>
-<fullyQualifiedTypeName name="com.training.inheritance.Book"/>
-<fullyQualifiedTypeName name="com.training.abstractdemo.StoryBook"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.Cloneable"/>
 <fullyQualifiedTypeName name="com.training.lang.Department"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="com.training.innerclass.TopClassExample.StaticInner"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
 </qualifiedTypeNameHistroy>

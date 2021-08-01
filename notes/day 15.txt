@@ -51,3 +51,23 @@ Web Context - Web Application
 + XML - hard 
 + annotation - @Inject, @Autowired, @Component, @Controller
 + java config - separate java class file @Configuration, @Bean 
+
+Collect the recent problems 2 years problems(geeks,hacker)
+simple 
+medium
+complex 
+weak 
++ 2 s + 2 m + 1 c
++ could break the problems (top-down/bottom-up) 
+
+ds & alg
+narrow vs deep 
++ list - 5 problems 
++ tree - 5 problems 
++ list, tree, graph, map, table - 20
+
+
++ Fresher  No Java - 250 problems on java oops, fundamentals, collection
++ Little Experience on Java - 500  
+
+

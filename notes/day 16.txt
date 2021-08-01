@@ -1,0 +1,25 @@
+Java Annotations
++ JDK 5 introduced
+
+Spring Specific Annotations 
++ Component
++ Repository - DB layer 
++ Service - Business logic layer
++ Controller - Web layer 
++ Autowired - dependency injection 
+
+JEE Annotations
++ Named - create a bean
++ Inject - dependency injection 
+
+Exception
+=========
+NoSuchBean
+NoUniqueBean
+BeanNotOfRequiredType
+
+@SpringBootApplication 
+
+XML & Annotation 
+Java config & Annotation 
+java config & xml 
