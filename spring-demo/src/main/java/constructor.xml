@@ -1,0 +1,45 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
+	<bean id="product" class="com.training.constructor.Product">
+		<constructor-arg type="java.lang.String" name="name"
+			value="pen"></constructor-arg>
+		<constructor-arg type="java.lang.String" index="1"
+			value="stationary"></constructor-arg>
+		<constructor-arg type="int" index="2">
+			<value>1</value>
+		</constructor-arg>
+	</bean>
+
+	<!-- ProductFactory productFactory = new ProductFactory() -->
+	<bean id="productFactory"
+		class="com.training.constructor.ProductFactory"
+		factory-method="getStaticProduct">
+		<constructor-arg type="java.lang.String" name="name"
+			value="ball"></constructor-arg>
+		<constructor-arg type="java.lang.String"
+			name="category" value="sport"></constructor-arg>
+		<constructor-arg type="int" index="1" value="2">
+		</constructor-arg>
+	</bean>
+
+	<bean id="productInstanceFactory"
+		class="com.training.constructor.ProductFactory"
+		factory-method="getInstanceProduct" factory-bean="productFactory">
+		<constructor-arg type="java.lang.String" name="name"
+			value="shirt"></constructor-arg>
+		<constructor-arg type="java.lang.String"
+			name="category" value="costume"></constructor-arg>
+		<constructor-arg type="int" index="1" >
+			<value>3</value>
+		</constructor-arg>
+	</bean>
+</beans>

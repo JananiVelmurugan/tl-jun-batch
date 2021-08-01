@@ -23,3 +23,16 @@ BeanNotOfRequiredType
 XML & Annotation 
 Java config & Annotation 
 java config & xml 
+
+<constructor-arg name="" type="" index="" value=""/>
+
+Singleton - creates a single obj and cached 
+Factory - any methods that generates objects for use 
+
+production - real data real.db, admin,admin 
+dev - dummy data dummy.db, user,user 
+
+properties - file which will be key,values & it is externalized 
+activate dev/production/qa
+
+
