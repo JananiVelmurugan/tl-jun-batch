@@ -35,4 +35,18 @@ dev - dummy data dummy.db, user,user
 properties - file which will be key,values & it is externalized 
 activate dev/production/qa
 
+Spring bean life cycle 
+BeanNameAware - change the name of the bean 
+InitializingBean - after setting the properties , any beans want to be initialized 
+DisposableBean - once the container is shutdown gracefully(ctx.close()), any process on bean 
+PostProcessor - any behaviour to be injected in the bean before or after the initialization 
+
+Explain bean life cycle 
+Explain Methods in the life cycle interface
+Explain why we need to use the bean life cycle methods 
+
+Scenario:
+100 beans in your app
+in one of the bean, property check - InitilaizingBean 
+1 features wanted to be added for all bean -  PostProcessor
 

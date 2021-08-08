@@ -1,0 +1,58 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
+	
+	 <context:annotation-config /> 
+	<context:component-scan base-package="com.example.basic" />
+	 
+
+	<bean id="customerinfo" class="com.training.basic.CustomerInfo">
+		<property name="name" value="Spring demo">
+		</property>
+	</bean>
+ 
+   
+	<bean name="address" class="com.training.basic.Address">
+		<property name="street" value="First Street">
+		</property>
+	</bean>
+	
+	<bean name="childaddress" class="com.training.basic.ChildAddress">
+		<property name="street" value="First Street">
+		</property>
+	</bean>
+	
+	
+	
+	<bean name="accountdetails" class="com.training.basic.AccountDetails" init-method="sta"	destroy-method="des">
+		
+		 <property name="cusInfo">
+			<ref bean="customerinfo" />
+		</property> 
+		<property name="add">
+			<ref bean="childaddress" />
+		</property>
+	
+ </bean>
+<bean class="com.training.basic.FirstBeanPostProcessor"/>
+<bean class="com.training.basic.SecondBeanPostProcessor"/>
+ 
+
+	<bean id="accountdetails1" class="com.training.basic.AccountDetails" 
+		p:cusInfo-ref="customerinfo" p:add-ref="address" /> 
+
+</beans>
+
+
+
+
+
+ 

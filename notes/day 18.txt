@@ -1,0 +1,63 @@
+AOP - Aspect Oriented Programming
++ Spring - DI , AOP 
++ AOP Doc - https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html
++ AOP implementation
+	declarative - xml 
+	programmatic - java
++ Scenario : OpenDoor
+insertkey - cross cutting concerns
+	opendoor - core business functionality 
+removekey - cross cutting concerns
++ Terminologies
+1. Aspect 
+2. JointPoint
+3. Advice
+4. Pointcut
+5. Target Object
+6. AOP Proxy 
+	JDK Proxy - a class that implements an interface 
+	ex: OpenDoorImpl implements OpenDoor 
+	CGLIB Proxy - a class that should not be a final 
+	ex : OpenDoorImpl 
+	+ ex: Interface & Impl - JDK Proxy 
+	+ ex: Impl - CGLib 
+7. Weaving
++ Types - After, Before, Around, AfterReturning, AfterThrowing
+
+DAO
++ Spring DAO Doc - https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/jdbc.html
++ ConnectionPool - group of connection objects already created and it will be available for use 
++ HikariConnectionPool - high performance 
+Steps
+1. Create datasource bean based on default spring connection pool or hikrari connection pool
+2. Create jdbctemplate bean based on the datasource bean  
+3. Create user or customer dao bean based on the jdbc template 
+(or)
+1. Create datasource bean based on default spring connection pool or hikrari connection pool
+2. Create user or customer dao bean based on the datasource 
+ 
++ JdbcTemplate Methods
+1. update - insert, update, delete
+2. query - more than one records
+3. queryForObject - exactly one record 
+
+RowMapper - mapRow() - Do the work for each iteration.
+
+Transaction
+Transaction Statements 
++ commit(permanent save)
++ rollback(undo operations)
++ savepoint(temporary save)
+
+Scenario 
++ transferMoney(source,destination,amount)
+start the transaction
+checkBalanceInSender(){amount<=balance=> balance = balance- amount}
+//rollback ;
+transferMoneyToReceiver(){checkReceiverAccount();balance=balance+amount}
+//commit;
+
+checkReceiverAccont(){if there is a destination & valid account}
+stop the transaction 
+
+@Transactional - DAO methods 

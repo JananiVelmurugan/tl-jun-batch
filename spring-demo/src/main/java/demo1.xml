@@ -41,4 +41,11 @@
 	<bean id="ccCustomer" class="com.training.demo1.CCCustomer">
 	</bean>
 
+	<context:property-placeholder
+		location="classpath:prices.properties" />
+
+	<bean id="product" class="com.trianing.value.Product">
+		<property name="name" value="pencil" />
+		<property name="price" value="${pencil}"></property>
+	</bean>
 </beans>

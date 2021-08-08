@@ -1,0 +1,101 @@
+Spring - older way of developing spring app 
++ xml
++ set up the configuration is difficult 
+
+xml 
+annotation
+ 
+SpringBootApplication - recent way of developing spring app
++ zero config - no xml required  
++ convention over configuration
++ auto configuration 
++ opinionated view 
+- database , connection pool
+- web , server (tomcat)
+
+Employee(id,name,sal,des,hike,location);
+new Employee(101,"trainer","rahul",10000, 2000000, "CHennai");
+employee.setId();
+employee.setName();
+
+Spring Qualifier resolves the bean ambiguity whenever I have more than one bean which is of same type 
++ where - field or parameter or annotations
++ when - autowire to qualify the bean 
++ Scenario:
+Employee Interface
+
+Manager implements Employee 
+Clerk implements Employee 
+
+@Qualifier("mgr")
+Employee emp; 
+
+@Qualifier("clk")
+Employee emp;
+
+emp  = new Manager();
+emp = new Clerk();
+
+@Qualifier("mgr")
+@Qualifier("clk")
+
+Spring Spel
++ property injection - ${}
++ Spring Expression Language - #{}
++ used to inject the values from any object types, expressions
+
+Spring Autowire - Null Pointer Exception
++ @Autowired - spring (or) @Inject - javax 
++ xml - autowire attribute 
+Types
+1. byName
+2. byType
+3. byconstructors
+4. default - byconstructors / bytype
+@Named,@Component,@Service,@Repository,@Controller - before the class 
+@Bean - before the method
+class EmployeeDetails{}
+Employee employeeDetails = new Employee(); 
+
+Spring IOC Advanced - MethodInjection
++ Scenario : Class - Business Logic
+applyLoan (){}
+applyLoan (Acard acard) {} 
+class Bank{applyLoan (){}}
+class NewBank extends Bank {
+applyLoan (Acard acard) {}
+}
+
+
+Spring Collections
+
+
+Any object is of an type Class/Interface
+Emp e - e is of type Emp
+
+int i - i is of type int 
+
+
+Spring MVC - web application - SpringBootApplication
++ Web Layer - Controller
++ Data Layer - Db 
++ Business Logic Layer - service 
+
+
+class Student{
+List<Student> students;
+get
+set
+}
+
+class StudentService{
+	void addStudent(){
+		for(int i=0;i<5;i++){
+			Student student = new Student();
+			list.add(student);
+		}
+	}
+}
+
+
+
