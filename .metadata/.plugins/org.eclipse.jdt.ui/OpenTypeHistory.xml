@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=corejava8and9/src&lt;com.training.innerclass{Calculator.java[Calculator" modifiers="513" timestamp="1626582139318"/>
+<typeInfo handle="=springdata/C:\/Users\/Admin\/.m2\/repository\/org\/springframework\/spring-jdbc\/4.3.4.RELEASE\/spring-jdbc-4.3.4.RELEASE.jar&lt;org.springframework.jdbc.core.support(JdbcDaoSupport.class[JdbcDaoSupport" modifiers="1057" timestamp="1628389038484"/>
+<typeInfo handle="=springdata/C:\/Users\/Admin\/.m2\/repository\/org\/springframework\/spring-jdbc\/4.3.4.RELEASE\/spring-jdbc-4.3.4.RELEASE.jar&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1628389038484"/>
 </typeInfoHistroy>

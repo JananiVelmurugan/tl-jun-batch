@@ -1,0 +1,38 @@
+Transaction
++ declarative - xml,annotation(preferred,single file - AOP
++ programmatic - java 
+ propagation - logic transaction boundary , start, pause, stop, continue 
+ + REQUIRED
+ 
+Scenario
+transaction - in table 
+	insert..
+	savepoint a;
+	select..
+	update..
+	savepoint b;
+	//commit;
+	rollback to a;
+
+transaction - in java class exceptions
+	based on exceptions, decision is done based on the exception 
+doPayment - insert ...
+output - "Suceessfully Payment Done"
+output - Display the entire transaction details - select ... where transaction_id=..
++ 
+class InvalidTransaction extends Transaction{
+}
+
+doPayment(){
+ if(true){
+	print("success")
+ }else{
+	throw new InvalidTransaction("Sorry We Cannot proceed");
+ }
+}
+cancelTransaction(){
+}
+
+proceedTransaction(){
+} 
+MVC
