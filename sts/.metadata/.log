@@ -2325,3 +2325,85 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 12:58:22.271
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hVDjXfAy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:18.089
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:18.091
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2d732cda[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:18.092
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.318
+!MESSAGE Boot LS startup time from start to initialized: 8222ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.413
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XNQCaYGuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.415
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.417
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.439
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.441
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.445
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.450
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.460
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XNQCaYGu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.467
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.496
+!MESSAGE buffering callback sts4.classpath.XNQCaYGu spring-boot-demo false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.503
+!MESSAGE executing callback sts4.classpath.XNQCaYGu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:08:26.570
+!MESSAGE executing callback sts4.classpath.XNQCaYGu SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-21 13:12:10.943
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:345)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:351)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:350)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:22:43.282
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XNQCaYGu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:22:43.283
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XNQCaYGu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:22:43.285
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-21 13:22:43.286
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XNQCaYGu => OK
