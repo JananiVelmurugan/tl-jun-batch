@@ -75,3 +75,7 @@ Liskov Substitution - extension of open-closed
 
 Interface Seggregation - similar to single responsibility/functionality
 + larger interface must be split into smaller ones
+
+Dependency Inversion 
++ use abstract class/interfaces rather than concrete(child) class 
++ decoupling code 
