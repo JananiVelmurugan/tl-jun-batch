@@ -115,6 +115,13 @@ public class Customer {
 		Customer emailCustomer = new Customer.Builder("Anand","suresh")
 								.email("test@yahoo.com")
 								.build();
+		
+		
+		Customer contactNoCustomer = new Customer.Builder("Janani", "Velmurugan")
+										.cellPhone("9600228828")
+										.homePhone("9600228828")
+										.build();
+		System.out.println(contactNoCustomer);
 		System.out.println(emailCustomer);
 		
 	}

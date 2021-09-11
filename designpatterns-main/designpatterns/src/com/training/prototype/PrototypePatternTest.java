@@ -20,6 +20,9 @@ public class PrototypePatternTest {
 		System.out.println("emps List: "+emps.getEmpList());
 		System.out.println("empsNew List: "+list);
 		System.out.println("empsNew1 List: "+list1);
+		
+		System.out.println(empsNew.hashCode());
+		System.out.println(empsNew1.hashCode());
 	}
 
 }
