@@ -1,3 +1,6 @@
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
 public class Employee {
 	private int id;
 	private String firstName, lastName;

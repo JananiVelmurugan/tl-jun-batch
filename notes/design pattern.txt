@@ -1,0 +1,77 @@
+Design Patterns
+Prerequisite
++ core java
+
+Book
++ GOF - Gang Of Four 
+
+Introduction
++ well-proved solution for a specific problem 
+Three categories
++ Creational - object 
++ Structural - class and object
++ Behavioral - method 
+
+Scenario
++ create single instance 
++ instance created must be used outside the class 
+Employee emp = new Employee();
+emp - instances, reference variable, object 
+
+Solution 
+Singleton Design pattern (Creational) 
+class Employee{
+	private static Employee emp ;
+	private Employee(){
+	} 
+	private static createInstance(){
+		emp = new Employee();
+}
+
+Advantages
++ reusable 
++ flexible
++ maintainable
++ testable 
++ ideas captured 
++ transparent 
+
+Disadvantages
++ doesn't provide any absolute solution 
++ idea(spec) not implementation 
+
+When
++ SDLC - requirement analysis 
++ scenarios that can ease the problem solving 
+
+History
++ Christopher
++ GOF - Gamma,Helm,Johnson,John 
++ 23 Design Patterns 
+
+SOLID 
+S - Single Responsibility
+O - Open-Closed 
+L - Liskov Substitution
+I - Interface Segregation
+D - Dependency Inversion 
+
+Purpose 
++ object-oreinted way to apply the solution 
++ contribute to software solution development that are easy to debug, understand, refactor
+
+Single Responsibility 
++ Every java class must perform a single responsibility/functionality 
++ multiple functionality - changes need to be done for the entire class 
++ easy to maintain  
+
+Open-Closed 
++ modules like method, variables - open to extension but closed for modification 
++ add a new method but not modify the existing method
+
+Liskov Substitution - extension of open-closed 
++ any child class must be always substitutabale for parent class 
++ any behaviour(methods) of the program should not be interrupted
+
+Interface Seggregation - similar to single responsibility/functionality
++ larger interface must be split into smaller ones

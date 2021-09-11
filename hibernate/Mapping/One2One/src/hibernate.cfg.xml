@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>       
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd"> 
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/relationship_db</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">password</property>
+		<mapping class="com.janani.onetoone.Employee" />
+		<mapping class="com.janani.onetoone.Person" />
+	</session-factory>
+</hibernate-configuration>

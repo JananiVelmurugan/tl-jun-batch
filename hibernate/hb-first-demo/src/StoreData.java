@@ -58,9 +58,18 @@ public class StoreData {
 		session.delete(employee);
 		System.out.println("Deleted Successfully");
 		
+		employee = session.load(Employee.class, 101);
+		
 		t.commit(); // permanent save
 		factory.close();
 		session.close();
 
+		Session session1 = factory.openSession();
+		employee = session1.load(Employee.class, 101);
+		
+		Session session2 = factory.openSession();
+		
+		Session session3 = factory.openSession();
+		
 	}
 }
